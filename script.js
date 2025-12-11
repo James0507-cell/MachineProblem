@@ -34,12 +34,12 @@ checkEmailBtn.onclick = checkEmail;
 const input4 = document.getElementById("InputString4");
 const searchBtn = document.getElementById("searchBtn");
 const output4 = document.getElementById("output4");
-const inputSearch = document.getElementById("inputSearch");
+const inputSearch = document.getElementById("InputSearch");
 
 function search () {
     const searchValue = inputSearch.value;
     const value = input4.value;
-    output4.textcontent = value.includes(searchValue)? "Found":"Not Found";
+    output4.textContent = value.includes(searchValue)? "Found":"Not Found";
 }
 
 searchBtn.onclick = search;
