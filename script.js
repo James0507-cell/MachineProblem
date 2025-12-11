@@ -4,7 +4,7 @@ const output = document.getElementById("output");
 
 function removeSpace () {
     const value = input.value;
-    output.textContent = value.replaceAll(" ", "");
+    output.textContent = value.trim().replaceAll(" ", "");
 }
 replaceSpaceBtn.onclick = removeSpace;
 
