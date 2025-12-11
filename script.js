@@ -55,8 +55,7 @@ function replaceWord () {
     const wordToReplace = InputReplace.value;
     const newWord = InputWord.value;
 
-    output5.textcontent = value.replaceAll(wordToReplace, newWord);
-    output5.textcontent = "Replaced Successfully";
+    output5.textContent = value.replaceAll(wordToReplace, newWord);
 }
 
 replaceBtn.onclick = replaceWord;
